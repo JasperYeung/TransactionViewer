@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Transaction Viewer</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="load_more">Load more</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="limit_order">Limit Order</string>
+    <string name="market_order">Market Order</string>
+    <string name="unknown">(unknown)</string>
+
+    <string name="title_order_type">Order Type</string>
+    <string name="title_stock_symbol">Stock Symbol</string>
+    <string name="title_quantity_and_price">Quantity/Price</string>
+    <string name="title_transaction_time">Transaction Time</string>
+
+    <string name="all_records_loaded">All records loaded</string>
+    <string name="error_try_again_later">Error. Please try again later.</string>
+</resources>

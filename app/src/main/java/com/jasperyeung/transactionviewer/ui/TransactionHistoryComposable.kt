@@ -203,12 +203,24 @@ fun TransactionList(transactionList: List<Transaction>) {
                 ) {
                     Text(stringResource(R.string.load_more))
                 }
-            } else if (transactionList.isNotEmpty()) {
+
+            } else if (transactionList.isNotEmpty()) { //end of list
                 Text(
                     text = stringResource(R.string.all_records_loaded),
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(8.dp),
+                    textAlign = TextAlign.Center,
+                    color = TitleGrey
+
+                )
+
+            } else if (transactionList.isEmpty()) { //no records
+                Text(
+                    text = stringResource(R.string.no_records),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
                     textAlign = TextAlign.Center,
                     color = TitleGrey
 
